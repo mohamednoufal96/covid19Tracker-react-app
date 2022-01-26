@@ -1,2 +1,12 @@
-.infoBox__title {
+.infoBox {
+    flex: 1;
+}
+
+.infoBox:not(:last-child) {
+    margin-right: 15px;
+}
+
+.infoBox__title,
+.infoBox__total {
+    color: #444;
 }
